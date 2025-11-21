@@ -111,4 +111,28 @@
 // }
 
 
-// all function
+// All function
+
+const person1 = {
+    name : "Sri",
+    age : 17,
+}
+const person2 = {
+    name : "Dav",
+    age : 17,
+}
+
+// function personName(){
+//     console.log(person.name)
+// }
+
+// personName()
+// parameter and Argument function
+function personName(name){ /// name is parameter
+    console.log(name);
+    console.log(age)
+}
+
+personName(person1.name, ) /// person.name is argument
+personName(person2.name) /// person.name is argument
+
