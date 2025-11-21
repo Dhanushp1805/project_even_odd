@@ -112,3 +112,40 @@
 
 
 // all function
+
+
+// function return
+
+// function fullName (firstName, lastName){
+//     return firstName + lastName
+// }
+
+// let personName = fullName("Lavanya", "sri");
+
+// console.log(personName)
+
+// anonymous function 
+// let fullName = function (firstName, lastName) {
+//     return firstName + " " + lastName
+// }
+
+// let personName = fullName("Lavanya", "sri");
+// console.log(personName)
+
+// Arrow function 
+// let fullName =  (firstName, lastName) =>{
+//     return firstName + " " + lastName
+// }
+
+// let personName = fullName("Lavanya", "sri");
+// console.log(personName)
+
+// Array Methods
+
+// foreach method 
+
+let fruits = ["Apple", "banana", "orange"];
+
+fruits.forEach((index) => {
+console.log(index.toUpperCase())
+});
